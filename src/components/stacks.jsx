@@ -1,4 +1,4 @@
-import { DiHtml5, DiCss3, DiGit, DiGithub, DiMysql, DiPostgresql, DiReact, DiJsBadge, DiNodejsSmall  } from 'react-icons/di'
+import { DiHtml5, DiCss3, DiGit, DiGithub, DiMysql, DiPostgresql, DiReact, DiJsBadge, DiNodejsSmall } from 'react-icons/di'
 import { SiMongodb, SiTypescript, SiExpress, SiHeroku, SiStyledcomponents, SiJest, SiTestinglibrary, SiSequelize, SiReactrouter, SiSass, SiRedux } from 'react-icons/si'
 
 import '../styles/components/stacks.sass'

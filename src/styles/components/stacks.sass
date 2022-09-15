@@ -1,0 +1,66 @@
+@use '../variables'
+@use '../mixins'
+
+.stacks-container
+    margin-bottom: 1rem
+
+    .stacks-grid
+        display: flex
+        flex-wrap: wrap
+        gap: 1.5rem
+
+    .stack-card
+        @include mixins.center
+        gap: 1rem
+        padding: 1rem
+        border: 1px solid #333
+        width: 45%
+        border-radius: variables.$card-border-radius
+
+        h3
+            color: variables.$text-color
+            margin-bottom: 1rem
+
+        svg
+            font-size: 6rem
+
+    #html
+        svg
+            color: #e44d26
+            
+
+    #css
+        svg
+            color: #2965f1
+
+    #js
+        svg
+            color: #f0db4f
+
+    #react
+        svg
+            color: #04d8f9
+
+    #node
+        svg
+            color: #68a063
+
+    #mysql
+        svg
+            color: #748cf4
+
+    #postgres
+        svg
+            color: #336791
+
+    #mongo
+        svg
+            color: #0cd45b
+
+    #git
+        svg
+            color: #f34f29
+
+    #github
+        svg
+            color: #fff

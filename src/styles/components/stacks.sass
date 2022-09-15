@@ -7,60 +7,80 @@
     .stacks-grid
         display: flex
         flex-wrap: wrap
-        gap: 1.5rem
+        gap: 1rem
 
     .stack-card
         @include mixins.center
-        gap: 1rem
-        padding: 1rem
+        justify-content: start
+        gap: .3rem
+        padding: .3rem
         border: 1px solid #333
-        width: 45%
+        width: 15%
         border-radius: variables.$card-border-radius
 
         h3
             color: variables.$text-color
-            margin-bottom: 1rem
 
         svg
-            font-size: 6rem
+            font-size: 3rem
 
     #html
-        svg
-            color: #e44d26
-            
-
+        @include mixins.stack-card($bg-color: #e44d26, $color: #fff)
+        
     #css
-        svg
-            color: #2965f1
-
+        @include mixins.stack-card($bg-color: #2965f1, $color: #fff)
+        
     #js
-        svg
-            color: #f0db4f
-
+        @include mixins.stack-card($bg-color: #f0db4f, $color: #000)
+        
     #react
-        svg
-            color: #04d8f9
-
+        @include mixins.stack-card($bg-color: #04d8f9, $color: #000)
+        
     #node
-        svg
-            color: #68a063
-
+        @include mixins.stack-card($bg-color: #68a063, $color: #fff)
+        
     #mysql
-        svg
-            color: #748cf4
-
+        @include mixins.stack-card($bg-color: #748cf4, $color: #fff)
+        
     #postgres
-        svg
-            color: #336791
-
+        @include mixins.stack-card($bg-color: #336791, $color: #fff)
+        
     #mongo
-        svg
-            color: #0cd45b
-
+        @include mixins.stack-card($bg-color: #0cd45b, $color: #fff)
+        
     #git
-        svg
-            color: #f34f29
-
+        @include mixins.stack-card($bg-color: #f34f29, $color: #fff)
+        
     #github
-        svg
-            color: #fff
+        @include mixins.stack-card($bg-color: #111, $color: #fff)
+
+    #typescript
+        @include mixins.stack-card($bg-color: #007acc, $color: #fff)
+        
+    #express
+        @include mixins.stack-card($bg-color: #111, $color: #fff)
+
+    #heroku
+        @include mixins.stack-card($bg-color: #6762A6, $color: #fff)
+        
+    #styled
+        @include mixins.stack-card($bg-color: #cb789c, $color: #fff)
+        
+    #jest
+        @include mixins.stack-card($bg-color: #F05032, $color: #fff)
+        
+    #rtl
+        @include mixins.stack-card($bg-color: #9f2b32, $color: #fff)
+        
+    #sequelize
+        @include mixins.stack-card($bg-color: #03AAE8, $color: #fff)
+        
+    #react-router
+        @include mixins.stack-card($bg-color: #ca4245, $color: #fff)
+        
+    #sass
+        @include mixins.stack-card($bg-color: #CC6699, $color: #fff)
+        
+    #redux
+        @include mixins.stack-card($bg-color: #764abc, $color: #fff)
+        

@@ -1,0 +1,28 @@
+@use '../variables'
+@use '../mixins'
+
+.about-container
+
+    p
+        a
+            text-decoration: none
+
+        .trybe
+            font-weight: bold
+            color: #8fd687
+            transition: .4s
+
+            &:hover 
+                color: #68a063
+
+        .stacks
+            font-weight: bold
+            background: linear-gradient(90deg, #21b2e7 0%, #0d6696 100%)
+            -webkit-background-clip: text
+            -webkit-text-fill-color: transparent
+
+            &:hover
+                background: linear-gradient(270deg, #3dc2f3 0%, #3dc2f3 100%)
+                -webkit-background-clip: text
+                -webkit-text-fill-color: transparent
+            
